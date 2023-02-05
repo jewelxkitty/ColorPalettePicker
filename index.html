@@ -51,6 +51,11 @@
             '#FCE22A',
             '#30E3DF'
         ];
+
+        const setColorBoxColor = (boxId, newColor) => {
+            allColorBoxes[boxId] = newColor;
+            showLatestColorBoxes();
+        };
         
         const showLatestColorBoxes = () => {
             const content = document.querySelector('#content');
