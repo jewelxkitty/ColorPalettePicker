@@ -39,14 +39,40 @@
     </head>
     <body>
         <section id="content">
-            <section class="color-box">
-                <div class="color-swatch" style="background-color: #000;"> </div>
-                <span class="color-code"> #000 </span>
-            </section>
+            <!-- Color boxes render inside here. -->
         </section>
 
     </body>
     <script>
+
+        const allColorBoxes = [
+            '#D61355',
+            '#F94A29',
+            '#FCE22A',
+            '#30E3DF'
+        ];
+        
+        const showLatestColorBoxes = () => {
+            const content = document.querySelector('#content');
+            content.innerHTML = '';
+            allColorBoxes.forEach(colorBox => {
+                const newBox = document.createElement('section');
+                newBox.classList.add('color-box');
+                const newSwatch = document.createElement('div');
+                newSwatch.classList.add('color-swatch');
+                newBox.appendChild(newSwatch);
+                const colorCode = document.createElement('span');
+                colorCode.classList.add('color-code');
+                newBox.appendChild(colorCode);
+                newSwatch.style.backgroundColor = colorBox;
+                colorCode.innerHTML = colorBox;
+                content.appendChild(newBox);
+            });
+        };
+
+        window.onload = () => {
+            showLatestColorBoxes();
+        }
 
     </script>
 </html>
