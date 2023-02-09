@@ -48,7 +48,7 @@ const loadColors = async () => {
   const fetchResult = await fetch('http://localhost:5216/palette');
   const data = await fetchResult.json();
   const justHexCodes = data.map((hexObject) => {
-    return hexObject.hexCode;
+    return hexObject.HexCode;
   });
   allColorBoxes = justHexCodes;
   showLatestColorBoxes();

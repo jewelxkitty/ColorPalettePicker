@@ -35,3 +35,4 @@ C:\Users\jewel\source\repos\ColorBox\ColorBox\obj\Debug\net7.0\ColorBox.pdb
 C:\Users\jewel\source\repos\ColorBox\ColorBox\obj\Debug\net7.0\ColorBox.genruntimeconfig.cache
 C:\Users\jewel\source\repos\ColorBox\ColorBox\obj\Debug\net7.0\ref\ColorBox.dll
 C:\Users\jewel\source\repos\ColorBox\ColorBox\bin\Debug\net7.0\ColorBox.staticwebassets.runtime.json
+C:\Users\jewel\source\repos\ColorBox\ColorBox\bin\Debug\net7.0\colors.json
