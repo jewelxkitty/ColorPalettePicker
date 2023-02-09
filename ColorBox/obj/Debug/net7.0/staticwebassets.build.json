@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "aqZE/Tb3bq9udjVA6klswtU70B7drdo7uRFlgQTa6YI=",
+  "Source": "ColorBox",
+  "BasePath": "_content/ColorBox",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ColorBox\\wwwroot",
+      "Source": "ColorBox",
+      "ContentRoot": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\",
+      "BasePath": "_content/ColorBox",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\css\\site.css",
+      "SourceId": "ColorBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\",
+      "BasePath": "_content/ColorBox",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\index.html",
+      "SourceId": "ColorBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\",
+      "BasePath": "_content/ColorBox",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\js\\site.js",
+      "SourceId": "ColorBox",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jewel\\source\\repos\\ColorBox\\ColorBox\\wwwroot\\",
+      "BasePath": "_content/ColorBox",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
